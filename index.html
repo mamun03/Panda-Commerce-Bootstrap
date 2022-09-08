@@ -8,7 +8,7 @@
   </head>
   <body>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
-    <header>
+    <header class="container mt-5">
         <nav class="navbar navbar-expand-lg bg-white">
             <div class="container">
               <a class="navbar-brand" href="#">
@@ -34,7 +34,106 @@
                   </li>
                   </ul>
                 </div>
-          </nav>
+        </nav>
+        <!-- slider start -->
+        <section class="mt-5">
+          <div id="demo" class="carousel slide" data-bs-ride="carousel">
+
+            <!-- Indicators/dots -->
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+              <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+              <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+            </div>
+          
+            <!-- The slideshow/carousel -->
+            <div class="carousel-inner">
+              <div class="carousel-item active bg-info p-5 rounded-4">
+                <div class="row d-flex justify-content-center align-items-center">
+                  <div class="col-lg-7">
+                    <h1>Dude Awesome Headphone</h1>
+                    <p>
+                      Dude is one of the best headphone brand in electronic world. If you want to save your ear from sound polution, you must use it.
+                    </p>
+                    <h2>$120</h2>
+                    <button type="button" class="btn btn-primary">BUY NOW <img src="images/arrow-right.svg" alt=""></button>
+                  </div>
+                  <div class="col-lg-5">
+                    <img src="images/banner-images/headphone.png" alt="Los Angeles" class="d-block w-100">
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item p-5 bg-success bg-opacity-50 rounded-4">
+                <div class="row d-flex justify-content-center align-items-center">
+                  <div class="col-lg-7">
+                    <h1>Mi LED TV 4A PRO 32</h1>
+                    <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor 
+                      do amet sint. Velit officia consequat duis enim velit mollit. 
+                      Exercitation veniam consequat sunt nostrud amet.
+                    </p>
+                    <h2>$1289</h2>
+                    <button type="button" class="btn btn-primary">BUY NOW <img src="images/arrow-right.svg" alt=""></button>
+                  </div>
+                  <div class="col-lg-5">
+                    <img src="images/banner-images/tv.png" alt="Los Angeles" class="d-block w-100">
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item p-5 bg-warning bg-opacity-50 rounded-4">
+                <div class="row d-flex justify-content-center align-items-center">
+                  <div class="col-lg-7">
+                    <h1>Mind-blowing experience with Xbox controller</h1>
+                    <p>If you desire realistic gaming experience and feelings you must use this awesome device to discover your mind highly fascinated</p>
+                    <h2>$399</h2>
+                    <button type="button" class="btn btn-primary">BUY NOW <img src="images/arrow-right.svg" alt=""></button>
+                  </div>
+                  <div class="col-lg-5">
+                    <img src="images/banner-images/xbox.png" alt="Los Angeles" class="d-block w-100">
+                  </div>
+                </div>
+              </div>
+            </div>
+          
+            <!-- Left and right controls/icons -->
+            <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon"></span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+              <span class="carousel-control-next-icon"></span>
+            </button>
+          </div>
+        </section>
+        <!-- slider end  -->
     </header>
+   <main>
+    <!-- Categories starts -->
+    <section>
+      <div class="container overflow-hidden text-center my-5">
+        <h1 class="d-flex justify-content-start">Categories</h1>
+        <div class="row gy-5">
+          <div class="col-lg-4 col-md-6 col-sm-12">
+            <div class="border bg-warning rounded-4 d-flex align-items-center justify-content-around h-75">
+             <h1 class="text-white">Watch</h1>
+             <img class="h-75" src="images/categories/watch.png" alt="">
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 col-sm-12">
+            <div class="border bg-danger rounded-4 d-flex align-items-center justify-content-around h-75">
+              <h1 class="text-white">Shoe</h1>
+              <img class="h-75" src="images/categories/shoes.png" alt="">
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 col-sm-12">
+            <div class="border bg-primary rounded-4 d-flex align-items-center justify-content-around h-75">
+              <h1 class="text-white">Bag</h1>
+              <img class="h-75" src="images/categories/bag.png" alt="">
+            </div>
+          </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Categories end  -->
+   </main>
   </body>
 </html>
